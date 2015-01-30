@@ -36,7 +36,7 @@ typedef enum{
 @property (nonatomic, retain) id<JHPullRefreshHeaderDelegate> delegate;     // 代理
 
 /*!
- @brief 首次自动加载逻辑
+ @brief 首次自动刷新逻辑
  @params scrollView 关联的scrollView对象
  */
 - (void) firstAutoLoadingWithScrollView: (UIScrollView*)scrollView;

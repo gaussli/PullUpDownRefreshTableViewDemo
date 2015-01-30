@@ -25,7 +25,6 @@
 		B419B5951A5A54310062F111 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B419B5931A5A54310062F111 /* InfoPlist.strings */; };
 		B419B5971A5A54310062F111 /* PullUpDownRefreshTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B419B5961A5A54310062F111 /* PullUpDownRefreshTableViewDemoTests.m */; };
 		B419B5A31A5A54540062F111 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B419B5A21A5A54540062F111 /* MainViewController.m */; };
-		B42E88F21A77F04F000EBFF6 /* JHPullRefreshTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42E88F11A77F04F000EBFF6 /* JHPullRefreshTableView.m */; };
 		B42E88F51A77F0A5000EBFF6 /* JHPullRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42E88F41A77F0A5000EBFF6 /* JHPullRefreshHeaderView.m */; };
 		B42E88F81A77F0B6000EBFF6 /* JHPullRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42E88F71A77F0B6000EBFF6 /* JHPullRefreshFooterView.m */; };
 /* End PBXBuildFile section */
@@ -64,8 +63,6 @@
 		B419B5961A5A54310062F111 /* PullUpDownRefreshTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullUpDownRefreshTableViewDemoTests.m; sourceTree = "<group>"; };
 		B419B5A11A5A54540062F111 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		B419B5A21A5A54540062F111 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		B42E88F01A77F04F000EBFF6 /* JHPullRefreshTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPullRefreshTableView.h; sourceTree = "<group>"; };
-		B42E88F11A77F04F000EBFF6 /* JHPullRefreshTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPullRefreshTableView.m; sourceTree = "<group>"; };
 		B42E88F31A77F0A5000EBFF6 /* JHPullRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPullRefreshHeaderView.h; sourceTree = "<group>"; };
 		B42E88F41A77F0A5000EBFF6 /* JHPullRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPullRefreshHeaderView.m; sourceTree = "<group>"; };
 		B42E88F61A77F0B6000EBFF6 /* JHPullRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPullRefreshFooterView.h; sourceTree = "<group>"; };
@@ -187,8 +184,6 @@
 		B42E88EF1A77EDCC000EBFF6 /* PullRefreshTableView */ = {
 			isa = PBXGroup;
 			children = (
-				B42E88F01A77F04F000EBFF6 /* JHPullRefreshTableView.h */,
-				B42E88F11A77F04F000EBFF6 /* JHPullRefreshTableView.m */,
 				B42E88F31A77F0A5000EBFF6 /* JHPullRefreshHeaderView.h */,
 				B42E88F41A77F0A5000EBFF6 /* JHPullRefreshHeaderView.m */,
 				B42E88F61A77F0B6000EBFF6 /* JHPullRefreshFooterView.h */,
@@ -294,7 +289,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B42E88F21A77F04F000EBFF6 /* JHPullRefreshTableView.m in Sources */,
 				B419B5811A5A54310062F111 /* PullUpDownRefreshTableViewDemo.xcdatamodeld in Sources */,
 				B42E88F81A77F0B6000EBFF6 /* JHPullRefreshFooterView.m in Sources */,
 				B42E88F51A77F0A5000EBFF6 /* JHPullRefreshHeaderView.m in Sources */,

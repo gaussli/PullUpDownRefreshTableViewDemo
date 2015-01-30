@@ -39,7 +39,6 @@
     // 去除多余的横线
     self.tableview.tableFooterView = [[UIView alloc] init];
     [self.view addSubview:self.tableview];
-    NSLog(@"contentSize.height: %f, %f", self.tableview.contentSize.height, self.tableview.frame.size.height);
     if (self.tableview.contentSize.height >= self.tableview.frame.size.height) {
         // 设置上拉加载尾
         self.pullRefreshFooterView = [[JHPullRefreshFooterView alloc] initWithFrame:CGRectMake(0, self.tableview.contentSize.height, self.tableview.frame.size.width, 40)];
